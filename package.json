@@ -1,0 +1,8 @@
+{
+  "name": "todo-mean",
+  "version": "0.0.1",
+  "description": "ToDo application using MEAN stack",
+  "dependencies": {
+    "express": "^4.10.7"
+  }
+}

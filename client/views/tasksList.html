@@ -1,0 +1,12 @@
+<!-- Tasks List View  -->
+<div ng-controller="toDosListsCtrl">
+	<div class="tasksLists">
+		<h1 ng-cloak>There are {{tasksLists.length}} tasks lists</h1>
+		<ul>
+			<li ng-repeat="taskList in tasksLists">
+				<a href="/TaskList/{{taskList.id}}">{{taskList.name}}</a>
+			</li>
+		</ul>
+		<a class="btn btn-primary" href="/TaskList/Create" role="button">Add New Task List</a>
+	</div>
+</div>
